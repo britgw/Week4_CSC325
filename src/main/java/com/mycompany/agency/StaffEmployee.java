@@ -7,7 +7,7 @@ public class StaffEmployee
 {
     protected String socialSecurityNumber;
     protected double payRate;
-
+    
     //-----------------------------------------------------------------
     //  TODO 2: Sets up this staff employee with the specified
     //  information. @todo Nur
@@ -35,6 +35,6 @@ public class StaffEmployee
     //-----------------------------------------------------------------
     public double pay()
     {
-       
+     
     }
 }
