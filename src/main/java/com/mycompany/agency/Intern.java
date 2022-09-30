@@ -10,9 +10,9 @@ public class Intern extends StaffEmployee
     //  TODO 2: Constructor: Sets up this intern using the specified
     //  information.
     //-----------------------------------------------------------------
-    public Intern(String eName, String eAddress, String ePhone)
+    public Intern(String eName, String eAddress, String ePhone, String socSecNumber, double rate)
     {
-        
+        super(eName,eAddress,ePhone, socSecNumber, rate);
     }
 
     //-----------------------------------------------------------------
