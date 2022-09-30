@@ -27,6 +27,7 @@ public class TempEmploee extends StaffEmployee
     public void addHours(int moreHours)
     {
         
+        hoursWorked = hoursWorked + moreHours;
     }
 
     //-----------------------------------------------------------------
@@ -34,7 +35,7 @@ public class TempEmploee extends StaffEmployee
     //-----------------------------------------------------------------
     public double pay()
     {
-            
+            return payRate;
     }
 
     //-----------------------------------------------------------------
@@ -42,6 +43,14 @@ public class TempEmploee extends StaffEmployee
     //-----------------------------------------------------------------
     public String toString()
     {
-
+            String result= " ";
+        //for loop
+        for(int i = 1; i<8; i++){
+        result = "Employee: "+i+
+                "\nName: "+name+
+                 "\nAddress: "+address+
+                 "\nPhone: "+phone+"\n";
+        }
+        return result; 
     }
 }

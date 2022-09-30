@@ -27,11 +27,13 @@ package com.mycompany.agency;
     {
         String result= " ";
         //for loop
-        result = "Employee: "+
+        for(int i = 1; i<8; i++){
+        result = "Employee: "+i+
                 "\nName: "+name+
                  "\nAddress: "+address+
                  "\nPhone: "+phone+"\n";
-                return result; 
+        }
+        return result; 
     }
 
     //-----------------------------------------------------------------

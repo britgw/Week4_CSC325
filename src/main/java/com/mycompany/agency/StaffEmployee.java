@@ -27,7 +27,15 @@ public class StaffEmployee extends StaffMember
     //-----------------------------------------------------------------
     public String toString()
     {
-        
+        String result= " ";
+        //for loop
+        for(int i = 1; i<8; i++){
+        result = "Employee: "+i+
+                "\nName: "+name+
+                 "\nAddress: "+address+
+                 "\nPhone: "+phone+"\n";
+        }
+        return result; 
     }
 
     //-----------------------------------------------------------------

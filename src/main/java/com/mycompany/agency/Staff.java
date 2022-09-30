@@ -16,7 +16,7 @@ public class Staff
 
         // TODO 1: Add 6 emploees to the staffList
 
-        ((Executive)staffList[0]).awardBonus(500.00);
+        ((Executive)staffList[3]).awardBonus(500.00);
 
         ((TempEmploee)staffList[3]).addHours(40);
     }
