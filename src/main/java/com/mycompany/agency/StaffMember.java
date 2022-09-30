@@ -27,7 +27,7 @@ package com.mycompany.agency;
     {
         String result= " ";
         //for loop
-        result = "Employee - "++
+        result = "Employee: "+
                 "\nName: "+name+
                  "\nAddress: "+address+
                  "\nPhone: "+phone+"\n";
